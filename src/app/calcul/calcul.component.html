@@ -1,0 +1,20 @@
+
+<h1>calculatrice</h1>
+<p>nbr 1</p>
+<input type="number" [(ngModel)]="nbr1" value="0">
+<br><br>
+<table>
+  <td> <button (click)="sommes()" name = "somme" value = "+">+</button></td>
+  <td><button (click)="soustractions()" name ="soustraction" value = "-">-</button></td>
+<td><button (click)="multiplications()" name ="multiplication" value = "*">*</button></td>
+   <td><button (click)="divisions()" name = "division" value = "/">/</button></td>
+</table>
+
+
+
+<p>nbr 2</p>
+<input type="number" [(ngModel)]="nbr2" value="0">
+
+
+<h2>{{result}}</h2>
+
